@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+    <name>DB Tables Counter</name>
+    <id>org.nx.dbtablescounter</id>
+    <vendor>Bropy</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="DBTablesCounter"
+                icon="/icons/pluginIcon.svg"
+                anchor="right"
+                factoryClass="org.nx.TableCounterToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
